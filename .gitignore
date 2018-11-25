@@ -1,4 +1,5 @@
 .ipynb_checkpoints
 practice/ 
 src/
-key.txt 
+key.txt
+*.pyc 
