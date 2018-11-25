@@ -35,6 +35,11 @@ Crime refers to 'crime per capita' in SF during the years in the dataset.
 | MSE Overall       | 1.020274991979367e-08 | 9.276901009229072e-09 |
 | MSE (10-fold) Avg | 9.82317130708087e-09  | 8.827877335005902e-09 |
 
+|                   | Crime vs total        | Crime vs time         |
+|-------------------|-----------------------|-----------------------|
+| MSE Overall       | 1.4768410446891544e-08| 9.276901009229072e-09 |
+| MSE (10-fold) Avg | 1.5187209598765883e-08| 8.827877335005902e-09 |
+
 
 This table describes how consistent the rates of pollution have been over the last 1-2 decades. 
 
