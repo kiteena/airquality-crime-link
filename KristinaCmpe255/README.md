@@ -22,6 +22,7 @@ All models use time series data in day increments.
 ## Results using TimeSeriesSplit 10-fold cross validation
 The columns for 'Crime versus respective pollutants' and 'Crime versus time' describe the relationship between crime and pollution in our best models. 
 
+### MSE of crime versus pollution 
 Crime refers to 'crime per capita' in SF during the years in the dataset.
 
 |                   | Crime vs CO, time      | Crime vs time           |
@@ -44,7 +45,8 @@ Crime refers to 'crime per capita' in SF during the years in the dataset.
 | MSE Overall       | 1.7580211083441344e-09| 2.4462734058830635e-09   |
 | MSE (10-fold) Avg | 2.104379467336409e-09 | 2.7630746658902143e-09   |
 
-Below is the rate of non-criminal events (traffic accidents, lost property, auto-impound, etc).
+### MSE of non-criminal events versus CO
+Non-criminal events refer to traffic accidents, lost property, auto-impound, etc.
 
 |                   | Non-criminal events versus CO | 
 |-------------------| ------------------------------|
@@ -56,8 +58,7 @@ Below is the rate of non-criminal events (traffic accidents, lost property, auto
 | MSE Overall       |  3.719187650277951e-13        |
 | MSE (10-fold) Avg |  3.7593204106935054e-13       | 
 
-
-This table describes the MSE in the rates of pollution over the last 1-2 decades. 
+### MSE of pollution over time 
 
 |                   |  CO versus time       |
 |-------------------| ----------------------|
