@@ -1,19 +1,22 @@
 # Air quality (CO, PPM2.5, SO2) versus crime per capita 
 
-All models use Random Forest regression with different numbers of estimators
+All models use Random Forest regression with different numbers of estimators. 
+All models use time series data in day increments. 
 
-## Univariate models - time series using day increments
-CO arithmetic mean from 1991 to 2017
-PPM 2.5 (size of particle) arithmetic mean from 1999 to 2017
-SO2 arithmetic mean from 1999 to 2008 
-Crime per-capita between 2003 to 2018
+| Univariate models                                            |
+|--------------------------------------------------------------|
+| CO arithmetic mean from 1991 to 2017                         |
+| PPM 2.5 (size of particle) arithmetic mean from 1999 to 2017 |
+| SO2 arithmetic mean from 1999 to 2008                        |
+| Crime per-capita between 2003 to 2018                        |
 
-## Multivariate models 
-Crime per-capita versus CO daily
-Crime per-capita versus ppm 2.5 daily
-Crime per-capita versus SO2 daily 
-Petty crime versus CO daily
-Non-criminal events versus CO daily
+| Multivariate models 
+|---------------------------------------|
+| Crime per-capita versus CO daily      |
+| Crime per-capita versus ppm 2.5 daily |
+| Crime per-capita versus SO2 daily     |
+| Petty crime versus CO daily           |
+| Non-criminal events versus CO daily   |
 
 ## Results using TimeSeriesSplit 10-fold cross validation
 The columns for 'Crime versus respective pollutants' and 'Crime versus time' describe the relationship between crime and pollution in our best models. 
@@ -41,7 +44,7 @@ Crime refers to 'crime per capita' in SF during the years in the dataset.
 | MSE (10-fold) Avg | 1.5187209598765883e-08| 8.827877335005902e-09 |
 
 
-This table describes how consistent the rates of pollution have been over the last 1-2 decades. 
+This table describes the MSE in the rates of pollution over the last 1-2 decades. 
 
 |                   |  CO versus time       |
 |-------------------| ----------------------|
