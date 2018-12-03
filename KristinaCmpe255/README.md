@@ -63,18 +63,18 @@ Non-criminal events refer to traffic accidents, lost property, auto-impound, etc
 
 |                   |  CO versus time       |
 |-------------------| ----------------------|
-| MSE Overall       |  0.04245489855557771  | 
-| MSE (10-fold) Avg |  0.14481904370284474  | 
+| MSE Overall       |  0.042                | 
+| MSE (10-fold) Avg |  0.145                | 
 
 |                   |   PPM 2.5 versus time | 
 |-------------------|  ---------------------|
-| MSE Overall       |  45.64918194028494    | 
-| MSE (10-fold) Avg |  85.31698434324686    | 
+| MSE Overall       |  45.65                | 
+| MSE (10-fold) Avg |  85.32                | 
 
 |                   |    SO2 versus time    | 
 |-------------------| --------------------- |
-| MSE Overall       |  1.4511614940381257   |
-| MSE (10-fold) Avg |  9.230414518716842    | 
+| MSE Overall       |  1.45                 |
+| MSE (10-fold) Avg |  9.23                 | 
 
 
 ## Basic exploration 
