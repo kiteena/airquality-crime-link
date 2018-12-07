@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.16.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.16.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="2ab3ad84-4c00-4d84-b926-668d7e221718"></div>
+        </div>
+        
+        <script type="application/json" id="b3b44434-93a1-4166-98d4-293e41ce7927">
+          {"d06abcf8-01ce-4bc7-b867-e73578ac8532":{"roots":{"references":[{"attributes":{"source":{"id":"909f6e30-3cd9-4a0e-b51e-e0b840ae775c","type":"ColumnDataSource"}},"id":"6fe251a6-bf42-4723-a49c-94f2aae4f770","type":"CDSView"},{"attributes":{},"id":"82ae4e6e-caa4-4fbf-8709-604c39826067","type":"CategoricalTicker"},{"attributes":{"factors":["LARCENY/THEFT","OTHER OFFENSES","NON-CRIMINAL","ASSAULT","VEHICLE THEFT"],"palette":["#3288bd","#99d594","#e6f598","#fee08b","#fc8d59","#d53e4f"]},"id":"aa42318c-07a4-4907-b321-b0767a767ec6","type":"CategoricalColorMapper"},{"attributes":{},"id":"5587b85c-3134-4e36-88a5-41f345a87ec6","type":"WheelZoomTool"},{"attributes":{"overlay":{"id":"6b7f23e6-becc-4d2d-940a-6d77f041f9bb","type":"BoxAnnotation"}},"id":"d4c94111-94f5-4282-96e5-657fb960ba1f","type":"BoxZoomTool"},{"attributes":{"plot":{"id":"46f5aeb4-42b3-42fc-8574-764a0bb60fb1","subtype":"Figure","type":"Plot"},"ticker":{"id":"82ae4e6e-caa4-4fbf-8709-604c39826067","type":"CategoricalTicker"}},"id":"c35267a4-36d5-44ac-964b-2ec5d1f0b307","type":"Grid"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"f8f7b660-4065-4146-9b38-64d82dae8aaa","type":"PanTool"},{"id":"5587b85c-3134-4e36-88a5-41f345a87ec6","type":"WheelZoomTool"},{"id":"d4c94111-94f5-4282-96e5-657fb960ba1f","type":"BoxZoomTool"},{"id":"6f38a63e-160a-4e9b-9194-90ba47985861","type":"SaveTool"},{"id":"421df838-e0bc-41df-8e00-e00e73b53c08","type":"ResetTool"},{"id":"612c1249-c506-4fa7-b3cd-41bbf4fd7628","type":"HelpTool"}]},"id":"d0a01dec-4a03-4e4c-9729-6b27486d5e58","type":"Toolbar"},{"attributes":{},"id":"bb8fcc14-5801-45da-a41c-fba954eb2a0a","type":"CategoricalTickFormatter"},{"attributes":{"fill_color":{"field":"Category","transform":{"id":"aa42318c-07a4-4907-b321-b0767a767ec6","type":"CategoricalColorMapper"}},"line_color":{"field":"Category","transform":{"id":"aa42318c-07a4-4907-b321-b0767a767ec6","type":"CategoricalColorMapper"}},"top":{"field":"count_incidents"},"width":{"value":0.7},"x":{"field":"Category"}},"id":"a2c69aff-c9b0-4f1a-bb24-670c33eebb86","type":"VBar"},{"attributes":{},"id":"6f38a63e-160a-4e9b-9194-90ba47985861","type":"SaveTool"},{"attributes":{"callback":null,"data":{"Category":["LARCENY/THEFT","OTHER OFFENSES","NON-CRIMINAL","ASSAULT","VEHICLE THEFT"],"Year":[2003,2003,2003,2003,2003],"count_incidents":[26266,20028,13060,12370,8790],"index":[16,21,20,1,34]},"selected":{"id":"302af928-efbd-4ece-acaa-a646f003403b","type":"Selection"},"selection_policy":{"id":"62d6dd78-52d8-4b83-8e12-23fd83ca6432","type":"UnionRenderers"}},"id":"909f6e30-3cd9-4a0e-b51e-e0b840ae775c","type":"ColumnDataSource"},{"attributes":{},"id":"948b1fca-d5da-4c99-99e2-e2b24a91ab88","type":"BasicTicker"},{"attributes":{},"id":"421df838-e0bc-41df-8e00-e00e73b53c08","type":"ResetTool"},{"attributes":{"callback":null},"id":"55a32048-03b8-4682-a3ee-9649cd9857f1","type":"DataRange1d"},{"attributes":{},"id":"612c1249-c506-4fa7-b3cd-41bbf4fd7628","type":"HelpTool"},{"attributes":{"dimension":1,"plot":{"id":"46f5aeb4-42b3-42fc-8574-764a0bb60fb1","subtype":"Figure","type":"Plot"},"ticker":{"id":"948b1fca-d5da-4c99-99e2-e2b24a91ab88","type":"BasicTicker"}},"id":"afaa3786-30e0-4144-aadd-cba66bf02bf6","type":"Grid"},{"attributes":{"data_source":{"id":"909f6e30-3cd9-4a0e-b51e-e0b840ae775c","type":"ColumnDataSource"},"glyph":{"id":"a2c69aff-c9b0-4f1a-bb24-670c33eebb86","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"29c05825-4742-4a06-836f-8b8ecee14070","type":"VBar"},"selection_glyph":null,"view":{"id":"6fe251a6-bf42-4723-a49c-94f2aae4f770","type":"CDSView"}},"id":"6281da40-d09e-46dc-80f8-fd7d42c7fea6","type":"GlyphRenderer"},{"attributes":{},"id":"62d6dd78-52d8-4b83-8e12-23fd83ca6432","type":"UnionRenderers"},{"attributes":{},"id":"c8a2f083-afe9-440c-afbe-6c21c03d7528","type":"CategoricalScale"},{"attributes":{"below":[{"id":"4584829a-aa8b-493b-9d7b-259654ade064","type":"CategoricalAxis"}],"left":[{"id":"f1e919db-a1d0-44e1-b3f1-3a53142e33cd","type":"LinearAxis"}],"plot_height":800,"plot_width":900,"renderers":[{"id":"4584829a-aa8b-493b-9d7b-259654ade064","type":"CategoricalAxis"},{"id":"c35267a4-36d5-44ac-964b-2ec5d1f0b307","type":"Grid"},{"id":"f1e919db-a1d0-44e1-b3f1-3a53142e33cd","type":"LinearAxis"},{"id":"afaa3786-30e0-4144-aadd-cba66bf02bf6","type":"Grid"},{"id":"6b7f23e6-becc-4d2d-940a-6d77f041f9bb","type":"BoxAnnotation"},{"id":"6281da40-d09e-46dc-80f8-fd7d42c7fea6","type":"GlyphRenderer"}],"title":{"id":"42329e20-20f2-49da-9380-9871c63d3761","type":"Title"},"toolbar":{"id":"d0a01dec-4a03-4e4c-9729-6b27486d5e58","type":"Toolbar"},"x_range":{"id":"af267661-a338-4daf-afd7-9dad9906efdf","type":"FactorRange"},"x_scale":{"id":"c8a2f083-afe9-440c-afbe-6c21c03d7528","type":"CategoricalScale"},"y_range":{"id":"55a32048-03b8-4682-a3ee-9649cd9857f1","type":"DataRange1d"},"y_scale":{"id":"520bf17f-e5a8-4d4b-b079-706a0998a964","type":"LinearScale"}},"id":"46f5aeb4-42b3-42fc-8574-764a0bb60fb1","subtype":"Figure","type":"Plot"},{"attributes":{"plot":null,"text":"No of Reported Incidents per Category for 2003"},"id":"42329e20-20f2-49da-9380-9871c63d3761","type":"Title"},{"attributes":{},"id":"520bf17f-e5a8-4d4b-b079-706a0998a964","type":"LinearScale"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"6b7f23e6-becc-4d2d-940a-6d77f041f9bb","type":"BoxAnnotation"},{"attributes":{},"id":"302af928-efbd-4ece-acaa-a646f003403b","type":"Selection"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"count_incidents"},"width":{"value":0.7},"x":{"field":"Category"}},"id":"29c05825-4742-4a06-836f-8b8ecee14070","type":"VBar"},{"attributes":{"callback":null,"factors":["LARCENY/THEFT","OTHER OFFENSES","NON-CRIMINAL","ASSAULT","VEHICLE THEFT"]},"id":"af267661-a338-4daf-afd7-9dad9906efdf","type":"FactorRange"},{"attributes":{},"id":"76c77cbf-b051-4a14-9a90-c76512d7b515","type":"BasicTickFormatter"},{"attributes":{"axis_label":"Category Type","formatter":{"id":"bb8fcc14-5801-45da-a41c-fba954eb2a0a","type":"CategoricalTickFormatter"},"plot":{"id":"46f5aeb4-42b3-42fc-8574-764a0bb60fb1","subtype":"Figure","type":"Plot"},"ticker":{"id":"82ae4e6e-caa4-4fbf-8709-604c39826067","type":"CategoricalTicker"}},"id":"4584829a-aa8b-493b-9d7b-259654ade064","type":"CategoricalAxis"},{"attributes":{},"id":"f8f7b660-4065-4146-9b38-64d82dae8aaa","type":"PanTool"},{"attributes":{"axis_label":"No of Incidents in Year: 2003","formatter":{"id":"76c77cbf-b051-4a14-9a90-c76512d7b515","type":"BasicTickFormatter"},"plot":{"id":"46f5aeb4-42b3-42fc-8574-764a0bb60fb1","subtype":"Figure","type":"Plot"},"ticker":{"id":"948b1fca-d5da-4c99-99e2-e2b24a91ab88","type":"BasicTicker"}},"id":"f1e919db-a1d0-44e1-b3f1-3a53142e33cd","type":"LinearAxis"}],"root_ids":["46f5aeb4-42b3-42fc-8574-764a0bb60fb1"]},"title":"Bokeh Application","version":"0.12.16"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('b3b44434-93a1-4166-98d4-293e41ce7927').textContent;
+                  var render_items = [{"docid":"d06abcf8-01ce-4bc7-b867-e73578ac8532","elementid":"2ab3ad84-4c00-4d84-b926-668d7e221718","modelid":"46f5aeb4-42b3-42fc-8574-764a0bb60fb1"}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    </body>
+</html>
